@@ -12,12 +12,13 @@
             height: 150px;
             border: 2px solid black;
             max-width: 300px;
+            flex-direction: column;
         }
         .item{
             font-size: 24px;
             height: 50%;
             text-align: center;
-            width: 100px;
+           
             line-height: 50px;
             min-width: 100px;
         }
@@ -27,6 +28,9 @@
 
         .wrap{
             flex-wrap: wrap;
+        }
+        .wrap-reverse{
+            flex-wrap: wrap-reverse;
         }
 
         .blue{
@@ -57,9 +61,15 @@
             <div class="item green">2</div>
             <div class="item blue">3</div>
             <div class="item orange">4</div>
-            <div class="item blue">3</div>
+           
+        </div>
+         <h1>wrap-reverse</h1>
+        <div class="flex-container wrap wrap-reverse">
+            <div class="item orange">1</div>
             <div class="item green">2</div>
             <div class="item blue">3</div>
+            <div class="item orange">4</div>
+            
         </div>
     </body>
     
